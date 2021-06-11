@@ -13,8 +13,12 @@ body {
   background: linear-gradient(210deg, #e942ff, #8838ff);
   background-repeat: no-repeat;
   width: 500px;
-  height: 800px;
+  height: 85%;
   border-radius: 0 0 250px 250px; }
+
+@media (max-width: 1440px) {
+  .bg-body {
+    left: -200px; } }
 
 @media (max-width: 1024px) {
   .bg-body {

@@ -126,11 +126,12 @@ i.fa-chevron-circle-right {
 
 .bg-simple  {
     & h2 {
+        font-size: 2.5em;
         color: $veryDarkDesaturatedViolet;
         line-height: 2em;
     }
     
-    & label {
+    & p {
         color: $darkGrayishViolet;
         line-height: 1.8em;
     }
